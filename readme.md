@@ -20,7 +20,7 @@ make erase-esp32
 # Deploy cloud resources & ESP32 code
 make go
 
-# The blue ESP32 LED will flash multiple times - it is working!
+# The blue ESP32 LED will flash when receiving self-published MQTT messages. It is working!
 
 # Cleanup cloud resources
 make destroy
